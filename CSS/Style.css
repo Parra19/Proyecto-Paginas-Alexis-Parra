@@ -1,0 +1,541 @@
+ /* ------------------------------------------
+	Esta hoja de estilo ayudara a darle
+	un mejor formato a nuestras paginas 
+	del proyecto 
+	- AP
+--------------------------------------------- */
+
+/* -----------------------------  */
+/* Este bloque contiene las       */
+/* etiquetas <a>                  */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+a.spanIndigo{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px rgb(111, 0, 255);
+}
+
+a.spanMag{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px magenta;
+}
+
+a.spanAzul{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px #0ACCF3;
+}
+
+a.spanRojo{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px #F94741;
+}
+
+a.spanNaranja{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px orange;
+}
+
+a.spanVerde{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px greenyellow;
+}
+
+a.aIndigo{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px rgb(111, 0, 255);
+}
+
+a.aMagenta{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px magenta;
+}
+
+a.aAzul{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px #0ACCF3;
+}
+
+a.aRojo{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px #F94741;
+}
+
+a.aNaranja{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px orange;
+}
+
+a.aVerde{
+	font-family: "VT323";
+	color: #FFFFFF;
+	text-shadow: 4px 4px 5px greenyellow;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene el diseño */
+/* de la barra del menu de los    */
+/* temas seleccionados            */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(70deg, #310044, #002F44);;
+	font-size: 30px;
+	padding: 35px;
+}
+
+.navContenedor > .Themes > a {
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+/* -----------------------------  */
+/* Este bloque contiene bodys     */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+body.registrar {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/login.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.principal {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/index.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.criptoMoneda {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/FondoCM.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.ciberAtaque {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/FondoCA.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;	
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.deepWeb {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/FondoDW.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.hacker {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/FondoH.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+body.virusInformatico {
+	/* Cargar fondo */
+	background-image: url("../Media/Imagenes/FondoVI.jpg");
+	
+	/* Fondo estatico */
+	background-attachment: fixed;
+	
+	/* Tamaño fondo */
+	background-size: 100%;
+	
+	/* Margen al rededor */
+	margin: auto;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene <p>       */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+p.titleCripto{
+	font-family: "Zilla Slab Highlight";
+	font-size: 400%;
+	color: #88FFDF;
+	text-align: center;
+	
+}
+
+p.titleCiber{
+	font-family: "Zilla Slab Highlight";
+	font-size: 400%;
+	color: #FFA388;
+	text-align: center;
+}
+
+p.titleDeep{
+	font-family: "Zilla Slab Highlight";
+	font-size: 400%;
+	color: #88E0FF;
+	text-align: center;
+}
+
+p.titleHack{
+	font-family: "Zilla Slab Highlight";
+	font-size: 400%;
+	color: #FFFB88;
+	text-align: center;
+}
+
+p.titleVirus{
+	font-family: "Zilla Slab Highlight";
+	font-size: 400%;
+	color: #FF88F1;
+	text-align: center;
+}
+
+p.sourceCode{
+	margin: 50px;
+	font-family: "Source Code Pro";
+	font-size: 140%;
+	color: white;
+	background-color: rgb(0, 0, 0, 0.8);
+	text-align: justify;
+}
+
+p.indieCripto{
+	margin: 50px;
+	font-family: "Indie Flower";
+	font-size: 180%;
+	color: #88FFDF;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+p.indieCiber{
+	margin: 50px;
+	font-family: "Indie Flower";
+	font-size: 180%;
+	color: #FFA388;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+p.indieDeep{
+	margin: 50px;
+	font-family: "Indie Flower";
+	font-size: 180%;
+	color: #88E0FF;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+p.indieHack{
+	margin: 50px;
+	font-family: "Indie Flower";
+	font-size: 180%;
+	color: #FFFB88;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+p.indieVirus{
+	margin: 50px;
+	font-family: "Indie Flower";
+	font-size: 180%;
+	color:  #FF88F1;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+p.firma{
+	margin: 50px;
+	font-family: "Source Code Pro";
+	font-size: 140%;
+	color: white;
+	background-color: rgb(0, 0, 0, 0.8);
+	text-align: right;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene imagenes  */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+img.cripto{
+	content: url("../Media/Imagenes/criptoIcon.png");
+	/* Tamaño de borde de imagen */
+	border-radius: 50%;
+	/* Cambiar tamaño */
+	width: 20px;
+	height: 20px;
+}
+
+img.virus{
+	content: url("../Media/Imagenes/virusIcon.png");
+	/* Tamaño de borde de imagen */
+	border-radius: 50%;
+	/* Cambiar tamaño */
+	width: 20px;
+	height: 20px;
+}
+
+img.ciber{
+	content: url("../Media/Imagenes/ciberIcon.png");
+	/* Tamaño de borde de imagen */
+	border-radius: 50%;
+	/* Cambiar tamaño */
+	width: 20px;
+	height: 20px;
+}
+
+img.hack{
+	content: url("../Media/Imagenes/hackIcon.png");
+	/* Tamaño de borde de imagen */
+	border-radius: 50%;
+	/* Cambiar tamaño */
+	width: 20px;
+	height: 20px;
+}
+
+img.deep{
+	content: url("../Media/Imagenes/deepIcon.png");
+	/* Tamaño de borde de imagen */
+	border-radius: 50%;
+	/* Cambiar tamaño */
+	width: 20px;
+	height: 20px;
+}
+
+img.pIcon{
+	content: url("../Media/Imagenes/pIcon.jpg");
+	/* Cambiar tamaño */
+	width: 50px;
+	height: 50px;
+
+	/* Ajusta imagen al texto */
+	vertical-align: middle;
+}
+
+img.virusIn{
+	content: url("../Media/Imagenes/virus.gif");
+	/* Cambiar tamaño */
+	width: 70px;
+	height: 70px;
+
+	border-radius: 50%;
+
+	/* Ajusta imagen al texto */
+	vertical-align: middle;
+}
+
+img.criptoMon{
+	content: url("../Media/Imagenes/criptoMon.jpg");
+	width: 384px;
+	height: 256px;
+	display: block;
+	margin: auto;
+}
+
+img.criptoMon2{
+	content: url("../Media/Imagenes/criptoMon2.jpg");
+	width: 384px;
+	height: 256px;
+	display: block;
+	margin: auto;
+}
+
+img.bit{
+	content: url("../Media/Imagenes/bit.gif");
+	/* Ajusta imagen al titulo */
+	width: 60px;
+	height: 60px;
+
+	/* Ajusta la imagen al centro */
+	vertical-align: middle;
+}
+
+img.cyb{
+	content: url("../Media/Imagenes/cyb.gif");
+	/* Ajusta imagen al titulo */
+	width: 70px;
+	height: 70px;
+
+	border-radius: 50%;
+
+	/* Ajusta la imagen al centro */
+	vertical-align: middle;
+}
+
+img.hackT{
+	content: url("../Media/Imagenes/hack.gif");
+	/* Ajusta imagen al titulo */
+	width: 70px;
+	height: 70px;
+
+	border-radius: 50%;
+
+	/* Ajusta la imagen al centro */
+	vertical-align: middle;
+}
+
+img.ciberAt{
+	content: url("../Media/Imagenes/ciberAt.jpg");
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+
+img.deepW{
+	content: url("../Media/Imagenes/deep.gif");
+	/* Ajusta imagen al titulo */
+	width: 66px;
+	height: 66px;
+
+	border-radius: 50%;
+
+	/* Ajusta la imagen al centro */
+	vertical-align: middle;
+}
+
+img.deepRep{
+	content: url("../Media/Imagenes/deepRep.jpg");
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+
+img.deepNav{
+	content: url("../Media/Imagenes/deepNav.jpg");
+	display: block;
+	margin: auto;
+}
+
+img.hackTheme{
+	content: url("../Media/Imagenes/hackTheme.gif");
+	display: block;
+	margin: auto;
+}
+
+img.hackPas{
+	content: url("../Media/Imagenes/hackPas.jpg");
+	display: block;
+	margin: auto;
+}
+
+img.virusBug{
+	content: url("../Media/Imagenes/virusBug.jpg");
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+
+img.error{
+	content: url("https://image.freepik.com/vector-gratis/error-404-no-encontrado-efecto-falla_8024-5.jpg");
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+	align-content: center;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene divs      */
+/* Fecha: 15-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+div.Themes{
+	margin: 0;
+	padding: 0;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene <ul>      */
+/* Fecha: 16-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+ul.sourceUl{
+	margin: 50px;
+	font-family: "Source Code Pro";
+	font-size: 140%;
+	color: white;
+	background-color: rgb(0, 0, 0, 0.8);
+	text-align: justify;
+}
+
+/* -----------------------------  */
+/* Este bloque contiene <li>      */
+/* Fecha: 16-Abril-2021			  */
+/* 					- AP 		  */
+/* ------------------------------ */
+
+li.sourceLi{
+	font-family: "Source Code Pro";
+	color: #FFA388;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+li.sourceVi{
+	font-family: "Source Code Pro";
+	color: #FF88F1;
+	background-color: rgb(0, 0, 0, 0.8);
+}
